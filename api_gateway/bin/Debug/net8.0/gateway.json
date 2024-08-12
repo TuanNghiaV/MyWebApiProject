@@ -1,0 +1,55 @@
+﻿{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:2031"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/shorten",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/UrlShortener/shorten",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/{shortUrl}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/UrlShortener/{shortUrl}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/{shortUrl}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/api/UrlShortener/{shortUrl}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/all",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/UrlShortener/all",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ]
+    }
+  ]
+}

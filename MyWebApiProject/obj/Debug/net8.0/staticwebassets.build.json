@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "JQxylHwSfgqg2WCQfjX7j03tXzw33rz5ZUlTc4Oskgc=",
+  "Source": "MyWebApiProject",
+  "BasePath": "_content/MyWebApiProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyWebApiProject\\wwwroot",
+      "Source": "MyWebApiProject",
+      "ContentRoot": "C:\\Users\\tuann\\Downloads\\Compressed\\CourseworkAMD-main\\MyWebApiProject v2\\MyWebApiProject\\MyWebApiProject\\wwwroot\\",
+      "BasePath": "_content/MyWebApiProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tuann\\Downloads\\Compressed\\CourseworkAMD-main\\MyWebApiProject v2\\MyWebApiProject\\MyWebApiProject\\wwwroot\\index.html",
+      "SourceId": "MyWebApiProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tuann\\Downloads\\Compressed\\CourseworkAMD-main\\MyWebApiProject v2\\MyWebApiProject\\MyWebApiProject\\wwwroot\\",
+      "BasePath": "_content/MyWebApiProject",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
